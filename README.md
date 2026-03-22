@@ -1,91 +1,67 @@
-NLP Tasks using Hugging Face Transformers
+# NLP Tasks using Hugging Face Transformers
 
-This project demonstrates multiple Natural Language Processing (NLP) tasks using the Hugging Face Transformers library.
-The notebook explores how pre-trained transformer models can perform powerful language tasks with just a few lines of Python.
+This project demonstrates basic NLP tasks using Hugging Face Transformers.
+It shows how pre-trained models can perform different language tasks with simple code.
 
-The project covers:
+---
 
-Text Generation
+## Features
 
-Named Entity Recognition (NER)
+* Text Generation
+* Named Entity Recognition (NER)
+* Sentiment Analysis
+* Simple Gradio interface
 
-Sentiment Analysis
+---
 
-Simple Interface using Gradio
+## Tech Stack
 
- Features
+* Python
+* Transformers
+* PyTorch
+* Gradio
+* Jupyter Notebook
 
-✔️ Text Generation
-Generate human-like text using pre-trained transformer models.
+---
 
-✔️ Named Entity Recognition (NER)
-Identify entities such as:
+## Project Structure
 
-Person names
+* text_gen_NER_sentiment_analysis.ipynb
+* README.md
 
-Locations
+---
 
-Organizations
-
-Dates
-
-✔️ Sentiment Analysis
-Analyze text and determine whether the sentiment is:
-
-Positive
-
-Negative
-
-✔️ Gradio Interface
-Create a simple interactive UI to test NLP models directly from the browser.
-
-🛠️ Technologies Used
-
-Python
-
-Hugging Face Transformers
-
-PyTorch
-
-Gradio
-
-Jupyter Notebook
-
-📂 Project Structure
-text_gen NER sentiment_analysis.ipynb
-README.md
-⚙️ Installation
+## Installation
 
 Clone the repository:
 
 git clone https://github.com/your-username/your-repository-name.git
+
+Go to the folder:
+
 cd your-repository-name
 
-Install required libraries:
+Install dependencies:
 
-pip install transformers
-pip install torch
-pip install gradio
-▶️ Running the Project
+pip install transformers torch gradio
+
+---
+
+## Usage
 
 Open the notebook:
 
 jupyter notebook
 
-Run all the cells to:
+Run all cells to:
 
-Load pre-trained transformer models
+* Load models
+* Perform NLP tasks
+* Launch the Gradio interface
 
-Perform NLP tasks
+---
 
-Launch the Gradio interface
-
-🧠 Example Tasks
-Text Generation
-
-Generate meaningful sentences using transformer models.
-
-Named Entity Recognition
+## Example
 
 Input:
 
@@ -93,10 +69,11 @@ Elon Musk founded SpaceX in the United States.
 
 Output:
 
-Elon Musk → PERSON  
-SpaceX → ORGANIZATION  
+Elon Musk → PERSON
+SpaceX → ORGANIZATION
 United States → LOCATION
-Sentiment Analysis
+
+---
 
 Input:
 
@@ -105,32 +82,13 @@ I love learning AI and Machine Learning!
 Output:
 
 Positive Sentiment
-📊 Use Cases
 
-NLP learning projects
+---
 
-AI demos
+## Use Cases
 
-Chatbot building blocks
+* Learning NLP
+* AI demos
+* Chatbot basics
+* Text analysis
 
-Text analytics
-
-Educational demonstrations
-
-🔮 Future Improvements
-
-Add more NLP tasks like:
-
-Text summarization
-
-Question answering
-
-Deploy as a web app
-
-Add a Streamlit interface
-
-Integrate with a chatbot system
-
-👨‍💻 Author
-
-Prashanth Chowdary
